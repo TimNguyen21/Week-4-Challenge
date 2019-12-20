@@ -1,0 +1,70 @@
+.navigation {
+  width: 100%;
+  border: 2px solid black;
+  padding: 1em 2em;
+  background-color: grey;
+}
+
+h1 {
+  color: white;
+  font-weight: 200;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.all-courses,
+.collections,
+.wishlist,
+.archived {
+  margin-right: 2em;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.all-courses-section,
+.collections-section,
+.wishlist-section,
+.archived-section {
+  width: 90%;
+  background-color: lightblue;
+  margin: 2em 1em;
+  padding: 1em;
+}
+
+.collections-section,
+.wishlist-section,
+.archived-section {
+  text-align: center;
+  background-color: transparent;
+}
+
+button {
+  width: 15%;
+  height: 3em;
+  background-color: orange;
+}
+
+span {
+  color: blue;
+}
+
+.mail-img {
+  width: 1em;
+  height: 1em;
+}
