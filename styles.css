@@ -28,6 +28,10 @@ h2 {
   color: white;
 }
 
+.all-courses {
+  border-bottom: 2px solid red;
+}
+
 .hide {
   display: none;
 }

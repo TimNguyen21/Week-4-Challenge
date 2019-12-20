@@ -15,21 +15,25 @@ archivedButton.addEventListener('click', changeArchived);
 function changeAllCourse() {
   removeAllSection();
   allcourseSection.classList.remove('hide');
+  allCoursesButton.style.borderBottom = '2px solid red';
 }
 
 function changeCollections() {
   removeAllSection();
   collectionsSection.classList.remove('hide');
+  collectionsButton.style.borderBottom = '2px solid red';
 }
 
 function changeWishlist() {
   removeAllSection();
   wishlistSection.classList.remove('hide');
+  wishlistButton.style.borderBottom = '2px solid red';
 }
 
 function changeArchived() {
   removeAllSection();
   archivedSection.classList.remove('hide');
+  archivedButton.style.borderBottom = '2px solid red';
 }
 
 function removeAllSection() {
@@ -37,4 +41,8 @@ function removeAllSection() {
   collectionsSection.classList.add('hide');
   wishlistSection.classList.add('hide');
   archivedSection.classList.add('hide');
+  allCoursesButton.style.borderBottom = 'none';
+  collectionsButton.style.borderBottom = 'none';
+  wishlistButton.style.borderBottom = 'none';
+  archivedButton.style.borderBottom = 'none';
 }
